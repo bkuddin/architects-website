@@ -11,6 +11,8 @@
 body{
 font-family: 'Lato', sans-serif;
 font-family: 'Work Sans', sans-serif;
+font-size: 1rem;
+color: #727272;
 }
 
 
@@ -30,7 +32,7 @@ font-family: 'Work Sans', sans-serif;
 
 header{
     background: rgba(255, 144, 14, 0.10);
-    padding: 50px 240px;
+    padding: 3.125rem 10rem;
     
 }
 
@@ -49,7 +51,7 @@ nav li{
     list-style: none;
     margin-right: 30px;
     font-weight: 500;
-    font-size: 1rem;
+    
 
 }
 
@@ -97,6 +99,55 @@ main{
 
 /* Common Style end */
 
+/* Team Section Styles */
+
+.team-container{
+    display: flex;  
+    align-items: center;
+    padding: 5% 10%;
+    
+}
+
+.team-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+}
+
+.team-img img{
+    width: 100%;
+}
+
+
+
+.team-content{
+    width: 42rem;
+    padding-left: 3rem;
+    
+    
+}
+
+.team-title{
+    font-size: 2.8rem;
+    color: #131313;
+    
+}
+
+.quick-list{
+    font-weight: 500;
+    color: #727272;
+   
+}
+
+.features{
+    font-weight: 700;
+    color: #FF900E;
+}
+
+.team-description{
+    margin: 1.5rem 0rem 2rem;
+    
+}
 
 
 
