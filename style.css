@@ -87,6 +87,18 @@ nav li a{
     
 }
 
+/* Main Section Styles */
+
+/* Common Style */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Common Style end */
+
+
+
 
 
 
