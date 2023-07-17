@@ -13,6 +13,7 @@ font-family: 'Lato', sans-serif;
 font-family: 'Work Sans', sans-serif;
 font-size: 1rem;
 color: #727272;
+
 }
 
 .btn-primary{
@@ -100,7 +101,7 @@ nav li a{
 /* Common Style */
 main{
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 0 9.375rem;
 }
 
 /* Common Style end */
@@ -110,7 +111,7 @@ main{
 .team-container{
     display: flex;  
     align-items: center;
-    padding: 5% 10%;
+    padding: 5% 7%;
     
 }
 
@@ -163,6 +164,37 @@ main{
 .facts-description{
     width: 33.672rem;
     margin-top: 1rem;
+}
+
+.facts-card-section-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 7%;
+}
+
+.card{
+    border-radius: 0.5rem;
+    border: 1px solid #FF900E;
+    width: 12rem;
+    height: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    
+    
+}
+
+.card-stats{
+    color: #424242;
+    margin: 10px 0px 10px;
+
+}
+
+.card-title{
+    font-size: 1rem;
+    font-weight: 600;
 }
 
 
