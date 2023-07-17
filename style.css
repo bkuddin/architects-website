@@ -197,7 +197,32 @@ main{
     font-weight: 600;
 }
 
+/* Sponsor Section Styles */
 
+.sponsor-section{
+    text-align: center;
+    
+}
+
+.sponsor-section-title{
+    color: #131313 ;
+
+}
+
+.sponsor-section-description{
+    margin: 2rem 0rem;
+}
+
+.sponsor-img-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+}
+
+.sponsor-img-container img{
+    width: 150px;;
+}
 
 
 
@@ -222,7 +247,8 @@ main{
 
     nav, 
     .team-container, 
-    .facts-card-section-container{      
+    .facts-card-section-container,
+    .sponsor-img-container{      
         flex-direction: column;
     } 
 
