@@ -154,6 +154,17 @@ main{
     
 }
 
+/* Facts section Styles */
+
+.facts-title{
+    color: #131313;
+}
+
+.facts-description{
+    width: 33.672rem;
+    margin-top: 1rem;
+}
+
 
 
 
