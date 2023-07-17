@@ -153,27 +153,21 @@ main{
 
 
 
-/* Responsive Design */
+/*============= Responsive Design=============== */
 
-/* Small Device */
+/* Small (Mobile Device */
+/* =============================================== */
 @media screen and (max-width: 576px) {
     header{      
         padding: 40px;
         
     }
 
-    nav{      
+    nav, .team-container{      
         flex-direction: column;
     } 
     
-    /* Team Section Responsive */
-    
-     .team-container{
-        flex-direction: column;
-        
-        
-        
-    }
+    /* Team Section Responsive */    
     
     .team-img{        
         grid-template-columns: repeat(1, 1fr);
@@ -198,8 +192,12 @@ main{
          padding: 50px;        
     }
 
-    nav{      
+    nav, .team-container{      
         flex-direction: column;
+    } 
+
+    .team-content{      
+        margin-top: 2rem;        
     } 
 
 
